@@ -1,0 +1,19 @@
+---
+title: "About - Coursera Capstone - Word Predictor"
+author: "Josh Starkey"
+date: "July 17, 2016"
+output: html_document
+---
+
+#### Word Prediction 
+
+This Shiny App is for predicting text.  The data is courtesy <http://www.swiftkey.com> and uses a sample of the English language blog, twitter, and news data sets.  The <code>quatenda</code> package is used to clean the data and create a corpus.  Several n-gram **data.table** are created, then back-off smooth scores are added to the data.tables to help with speed. 
+
+To use the Prediction tab, use the slider to predict the number of text predictors.  Then type in any text and hit the <b>Predict</b> button, or simply press Enter.
+
+Future updates to do:
+- Better modelling algorithms
+- More computing space to create larger document matrixes
+
+- Code is located here : <https://github.com/star9475/capstone>
+- Questions, comments, constructive criticism: <star9475@hotmail.com>
